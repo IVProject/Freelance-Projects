@@ -3,9 +3,9 @@ using UnityEditor;
 using UnityEngine.UI;
 using InvsoftEngine.UI;
 
-namespace InvsoftEngine.ExtensionEditor
+namespace InvsoftEditor.ExtensionEditor
 {
-    public class SwichExtensionEditor : Editor
+    public class SwichExtensionEditor
     {
         [MenuItem("GameObject/UI/InvsoftEngine/Swich")]
         private static void InstantiateObject()

@@ -3,9 +3,9 @@ using UnityEngine.UI;
 using InvsoftEngine.UI;
 using UnityEditor;
 
-namespace InvsoftEngine.ExtensionEditor
+namespace InvsoftEditor.ExtensionEditor
 {
-    public class ProgressBarExtensionEditor: Editor
+    public class ProgressBarExtensionEditor
     {
         [MenuItem("GameObject/UI/InvsoftEngine/Progress Bar")]
         private static void InstantiateObject()
